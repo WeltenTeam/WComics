@@ -36,12 +36,24 @@ main {
     max-height: 100px;
     padding-top: 0rem;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 2rem 0em;
     overflow: hidden;
     text-decoration: none;
 }
+.special-text {
+    margin-left: 1em;
+}
+
+.special-title {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0.7em;
+}
+
 .comic-list {
     display: flex;
     flex-wrap: wrap;
@@ -51,6 +63,12 @@ main {
     justify-content: center;
     align-items: start;
     padding: 1em;
+    margin-bottom: 1em;
+}
+
+hr {
+    width: 50vw;
+    margin: auto;  
 }
 
 /* Адаптивный дизайн для одной карточки */
@@ -101,6 +119,7 @@ main {
 }
 .ozka {background-image: url('./img/ozka_0.png');}
 .elf {background-image: url('./img/elf_0.png');}
+.k1ms17 {background-image: url('./img/special/k1ms17/K1Ms17.png');}
 
 
 .comic-t {
